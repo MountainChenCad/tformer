@@ -194,3 +194,35 @@ cython_debug/
 .cursorindexingignore
 
 /LLM/*
+
+# Project specific large files and directories
+data/
+processed_data_all_channels/
+processed_data_de_only/
+models_saved/
+logs/
+results/
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.h5
+*.hdf5
+
+# Data files
+*.mat
+*.npz
+*.npy
+
+# Output files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.json
+
+# Claude Code settings
+.claude/
